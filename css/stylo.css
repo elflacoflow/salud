@@ -1,0 +1,175 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Estilos de encabezado */
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px 0;
+}
+#Testimonios{
+
+  text-align: center;}
+
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #dddada;
+  font-weight: bold;
+}
+
+/* Estilos de secciones */
+section {
+  padding: 50px 0;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.servicio, .destino {
+  text-align: center;
+}
+
+.servicio h3, .destino h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.servicio p, .destino p {
+  font-size: 16px;
+}
+
+/* Estilos de formulario de contacto */
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #b3b1b1;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos de pie de página */
+footer {
+  background-color: #bdf6f6;
+  color: #000;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Estilos específicos */
+#carouselExampleIndicators {
+  margin-bottom: 50px;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 20px;
+}
+
+.carousel-caption h5 {
+  font-size: 36px;
+}
+
+.carousel-caption p {
+  font-size: 18px;
+}
+
+.bg-nav-patikat {
+  background-color: #007bff !important;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 20px;
+  }
+
+  .nav-link {
+    font-size: 16px;
+  }
+
+  .carousel-caption h5 {
+    font-size: 24px;
+  }
+
+  .carousel-caption p {
+    font-size: 16px;
+  }
+}
+/* Animación de desvanecimiento */
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Aplicar la animación a las imágenes de todas las secciones excepto el carrusel */
+section:not(#carouselExampleIndicators) img:hover{
+  transform: scale(0.9);}
+
+#Servicios img{
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+#Medicina img{
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+#Medicina h2 {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.perro{
+  text-align: center;
+}
+footer img{
+ border-radius: 12%;
+}
